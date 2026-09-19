@@ -456,6 +456,79 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+  {%- comment -%} Sarah's Snake Totes — premium snake skin polish {%- endcomment -%}
+  <style>
+    :root { --tt-teal: #2E7D46; --tt-navy: #14331F; }
+    /* Smooth, premium interactions on buttons & cards */
+    .button, button.button, .product-form__submit, .shopify-payment-button__button,
+    .card-wrapper, .card, .price, .badge {
+      transition: transform .18s ease, box-shadow .25s ease, background-color .2s ease, color .2s ease;
+    }
+    /* Primary CTA: energon glow + lift on hover */
+    .button:not(.button--secondary):not([disabled]):hover,
+    .product-form__submit:hover,
+    .shopify-payment-button__button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 22px rgba(212, 42, 38,.4), 0 0 0 1px rgba(217,178,60,.3);
+      filter: saturate(1.08);
+    }
+    .button:active, .product-form__submit:active { transform: translateY(0); }
+    /* Product cards lift subtly */
+    .card-wrapper:hover { transform: translateY(-4px); }
+    .card-wrapper:hover .card__media img { transform: scale(1.04); }
+    .card__media img { transition: transform .5s ease; }
+  </style>
+  <style id="gw-polish">
+@keyframes gwRise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+.button,button.button,.shopify-payment-button__button{transition:transform .18s ease,box-shadow .18s ease,filter .18s ease!important}
+.button:hover,button.button:hover,.shopify-payment-button__button:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(212, 42, 38,.4);filter:brightness(1.06)}
+.card,.card-wrapper,.collection-card{transition:transform .25s ease,box-shadow .25s ease}
+.card:hover,.card-wrapper:hover,.collection-card:hover{transform:translateY(-4px)}
+h1,h2,.h1,.h2{letter-spacing:.5px}
+</style>
+<style id="wr-brand">
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Titan+One&family=Nunito:wght@400;600;700;800&display=swap');
+h1,h2,h3,h4,.h0,.h1,.h2,.h3,.h4,.header__heading,.header__heading-link,summary .h2,.accordion__title,.collapsible-content__heading{font-family:'Baloo 2',ui-rounded,system-ui,sans-serif !important;font-weight:800 !important;letter-spacing:0 !important;color:#111111 !important;}
+body,.rte,.rte p,.rte li,p,li,button,.btn,.button,.card__information,.product__text,.product__description{font-family:'Nunito',sans-serif !important}
+/* clean light Mickey Snugs header */
+.header-wrapper,.section-header{background:#FFFFFF !important;border-bottom:3px solid #1A1A1A !important;}
+.header__heading-link span,.header .header__menu-item,.header .header__menu-item span,.header a.link,.header__inline-menu a{color:#111111 !important;}
+.header__icons a,.header__icon,.header__icon svg,.header__icon path,.header .cart-count-bubble{color:#111111 !important;fill:#111111 !important;}
+.header__icon svg{stroke:#111111 !important;}
+/* red footer, white text */
+footer.footer,.footer,.section-footer{background:#D2232A !important;}
+.footer *:not(a):not(.button){color:#FFFFFF !important;} .footer a{color:#FFFFFF !important;} .footer .button,.footer button[type="submit"]{background:#FFFFFF !important;background-image:none !important;color:#D2232A !important;border-color:#FFFFFF !important;} .footer input,.footer .field__input{background:rgba(255,255,255,.12) !important;color:#FFFFFF !important;border-color:rgba(255,255,255,.55) !important;} .footer input::placeholder{color:rgba(255,255,255,.75) !important;} .footer .rating-star,.footer__list-social .icon{color:#FFFFFF !important;}
+.icon-bar-card__icon,.icon-bar-card__icon .material-icon,.icon-bar-card__icon .material-symbols-outlined{color:#D2232A !important;}
+/* ALL body + product text black */
+.rte,.rte p,.rte li,.rte *,p,li,.product__description,.product__info-container,.card__information,.card__information *,.product__title,.price,.price *,.price-item,.banner__text,.banner__heading,blockquote{color:#111111 !important;}
+/* buttons: yellow with black text so labels stay black + readable */
+.button:not(.button--tertiary):not(.link),.product-form__submit,.shopify-payment-button__button,.cart__checkout-button{background-color:#D2232A !important;background-image:none !important;color:#FFFFFF !important;border-color:#1A1A1A !important;}
+.button--secondary,.button--tertiary,.link{color:#111111 !important;border-color:#111111 !important;}
+/* mobile menu drawer: light + readable */
+.menu-drawer,.menu-drawer *,.menu-drawer__inner-container,.menu-drawer__navigation,.menu-drawer__navigation-container,.menu-drawer__submenu,.menu-drawer__utility-links,.menu-drawer details,.menu-drawer .gradient{background-image:none !important;color:#111111 !important;}
+.menu-drawer,.menu-drawer__inner-container,.menu-drawer__navigation,.menu-drawer__navigation-container,.menu-drawer__submenu,.menu-drawer__utility-links,.menu-drawer details{background:#FFFFFF !important;}
+.menu-drawer svg,.menu-drawer .icon,.menu-drawer__close-button svg{color:#111111 !important;fill:#111111 !important;stroke:#111111 !important;}
+.menu-drawer__menu-item:hover,.menu-drawer__menu-item--active,.menu-drawer summary:hover{background:#FFEFC7 !important;}
+</style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Titan+One&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      :root{--font-heading-family:'Baloo 2',ui-rounded,system-ui,sans-serif!important;--font-heading-weight:800!important;--font-body-family:'Nunito',system-ui,-apple-system,sans-serif!important;--font-body-weight:400!important;--font-body-weight-bold:700!important;}
+      h1,h2,h3,h4,.h0,.h1,.h2,.h3,.h4{font-family:'Baloo 2',ui-rounded,system-ui,sans-serif!important;letter-spacing:0!important;}
+      body,button,input,select,textarea,.btn,.button{font-family:'Nunito',system-ui,sans-serif!important;}
+      .horizontal-ticker__item, .horizontal-ticker__item *{color:#fff !important;}
+      /* compact testimonials (does not touch the reviews block) */
+      .testimonial-card{padding:16px 16px 14px !important;}
+      .testimonial-card__info{padding:0 !important;}
+      .testimonial-card h3{font-size:15px !important;line-height:1.2 !important;margin:2px 0 5px !important;font-weight:800 !important;}
+      .testimonial-card .rte, .testimonial-card .rte p{font-size:12.5px !important;line-height:1.5 !important;}
+      .testimonial-card__author{font-size:11.5px !important;margin-top:8px !important;}
+      .testimonial-card__quotes{transform:scale(.62);transform-origin:left top;opacity:.7;margin-bottom:-6px !important;}
+      .testimonial-card__stars{transform:scale(.85);transform-origin:left center;}
+    </style>
+    <link rel="icon" type="image/png" href="{{ 'mickey-snugs-favicon.png' | asset_url }}">
   </head>
 
   <body class="gradient link-btns--{{ settings.link_btn_hover }} action-btns--{{ settings.action_btn_hover }}"{% if is_rtl %} data-rtl="true"{% endif %}>
