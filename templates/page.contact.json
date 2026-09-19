@@ -1,1 +1,73 @@
-{"sections":{"track_order_wxbeDq":{"type":"track-order","name":"Track order","settings":{"display_id":false,"visibility":"always-display","title":"Track your order","title_highlight_color":"#d2232a","heading_size":"h1","text":"<p>Please enter you tracking number below. If your tracking number doesn't work feel free to contact us at [mickeysnugs@outlook.com]<\/p>","input_label":"Tracking number","button_label":"TRACK","button_full_width":true,"color_scheme":"background-1","padding_top":36,"padding_bottom":36,"custom_colors_background":"#ffffff","custom_gradient_background":"","custom_colors_text":"#0a1a2f","custom_colors_solid_button_background":"#d2232a","custom_colors_solid_button_text":"#ffffff"}},"main":{"type":"main-page","disabled":true,"settings":{"padding_top":36,"padding_bottom":36}},"track_order_CPLbHG":{"type":"track-order","disabled":true,"name":"Track order","settings":{"display_id":false,"visibility":"always-display","title":"Track your order","title_highlight_color":"#d2232a","heading_size":"h1","text":"<p>Please enter you tracking number below. If your tracking number doesn't work feel free to contact us at [shop email]<\/p>","input_label":"Tracking number","button_label":"TRACK","button_full_width":true,"color_scheme":"background-1","padding_top":36,"padding_bottom":36,"custom_colors_background":"#ffffff","custom_gradient_background":"","custom_colors_text":"#0a1a2f","custom_colors_solid_button_background":"#d2232a","custom_colors_solid_button_text":"#ffffff"}}},"order":["track_order_wxbeDq","main","track_order_CPLbHG"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "track_order_wxbeDq": {
+      "type": "track-order",
+      "name": "Track order",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Track your order",
+        "title_highlight_color": "#d2232a",
+        "heading_size": "h1",
+        "text": "<p>Please enter you tracking number below. If your tracking number doesn't work feel free to contact us at [mickeysnugs@outlook.com]</p>",
+        "input_label": "Tracking number",
+        "button_label": "TRACK",
+        "button_full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#0a1a2f",
+        "custom_colors_solid_button_background": "#d2232a",
+        "custom_colors_solid_button_text": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "track_order_CPLbHG": {
+      "type": "track-order",
+      "disabled": true,
+      "name": "Track order",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Track your order",
+        "title_highlight_color": "#d2232a",
+        "heading_size": "h1",
+        "text": "<p>Please enter you tracking number below. If your tracking number doesn't work feel free to contact us at [shop email]</p>",
+        "input_label": "Tracking number",
+        "button_label": "TRACK",
+        "button_full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#0a1a2f",
+        "custom_colors_solid_button_background": "#d2232a",
+        "custom_colors_solid_button_text": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "track_order_wxbeDq",
+    "main",
+    "track_order_CPLbHG"
+  ]
+}
